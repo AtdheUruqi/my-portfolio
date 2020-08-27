@@ -1,0 +1,15 @@
+.background-img {
+    background-position: 50%;
+    background-size: 750px;
+    background-image: url('../../../assets/icon-bg.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400%;
+    width: 100%;
+    display: block;
+    z-index: 0;
+    content: "";
+    opacity: .1;
+    pointer-events: none;
+}
