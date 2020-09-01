@@ -5,7 +5,7 @@ const Typer = () => {
         <Typical
             steps={['Hi', 1000, 'I am FrontEnd Developer', 500]}
             loop={Infinity}
-            wrapper="p"
+            wrapper="div"
         />
     );
 };
