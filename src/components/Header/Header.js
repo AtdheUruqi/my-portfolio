@@ -3,7 +3,7 @@ import {Navbar,Nav} from 'react-bootstrap';
 const Header = () => {
     return (
         <>
-            <Navbar  className="justify-content-center" bg="dark" variant="dark">
+            <Navbar  fixed="top" className="justify-content-center" bg="dark" variant="dark">
                 <Nav >
                     <Nav.Link  href="#home">What i do</Nav.Link>
                     <Nav.Link  href="#features">Portfolio</Nav.Link>
