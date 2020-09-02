@@ -40,7 +40,6 @@
   .box {
     width: 100%;
     height: 150%;
-    margin-top: 10px;
     position: absolute;
     color: white;
     background-image: url('../../../assets/icon-bg.jpg');
