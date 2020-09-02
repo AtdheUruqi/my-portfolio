@@ -5,13 +5,22 @@ const Header = ({ colorBackground, fontColor }) => {
     return (
         <>
             <Navbar fixed="top" className="justify-content-center" style={{ backgroundColor: colorBackground }}>
-                <Nav >
-                    <Nav.Link style={{ color: fontColor, fontFamily: 'Titillium Web' }} href="#home">What i do</Nav.Link>
-                    <p  className={'header_nav'} style={{ color: fontColor, fontFamily: 'Titillium Web' }}>asdasdS</p>
-                    <Nav.Link href="#features">Portfolio</Nav.Link>
-                    <Nav.Link href="#pricing">About</Nav.Link>
-                    <Nav.Link href="#pricing">Blog</Nav.Link>
-                    <Nav.Link href="#pricing">Contact</Nav.Link>
+                <Nav>
+                    <Nav.Link href="#home">
+                        <span className={'header_nav'}> What i do</span>
+                    </Nav.Link>
+                    <Nav.Link href="#Portfolio">
+                        <span className={'header_nav'}> Portfolio</span>
+                    </Nav.Link>
+                    <Nav.Link href="#About">
+                        <span className={'header_nav'}> About</span>
+                    </Nav.Link>
+                    <Nav.Link href="#Blog">
+                        <span className={'header_nav'}> Blog</span>
+                    </Nav.Link>
+                    <Nav.Link href="#Contact">
+                        <span className={'header_nav'}> Contact</span>
+                    </Nav.Link>
                 </Nav>
             </Navbar>
         </>
