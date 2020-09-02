@@ -2,11 +2,9 @@ import React from 'react';
 import './style/styles.css'
 const Body = () => {
     return (
-        <>
-            <div className='background-img'>
-
-            </div>
-        </>
+        <div class="box overlay">
+            <h1>Text</h1>
+        </div>
     );
 };
 

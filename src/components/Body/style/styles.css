@@ -2,14 +2,47 @@
     background-position: 50%;
     background-size: 750px;
     background-image: url('../../../assets/icon-bg.jpg');
+    /* background: linear-gradient(135deg,#208379 20%,#051514 80%); */
     position: absolute;
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 0; */
     height: 400%;
     width: 100%;
-    display: block;
+    /* display: block; */
     z-index: 0;
+    overflow: hidden;
+
     content: "";
     opacity: .1;
     pointer-events: none;
 }
+
+
+.overlay {
+    position: relative;
+    z-index: 0;
+    background-size: 550px;
+  }
+  
+  .overlay::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #208379 20%, #051514 80%);
+      opacity: .6;
+      /* !!! */
+      z-index: -1;
+  }
+  
+  .box {
+    width: 100%;
+    height: 150%;
+    margin-top: 10px;
+    position: absolute;
+    color: white;
+    background-image: url('../../../assets/icon-bg.jpg');
+  }
+  
