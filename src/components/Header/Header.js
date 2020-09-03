@@ -4,8 +4,11 @@ import './style/styles.css';
 const Header = ({ colorBackground, fontColor }) => {
     return (
         <>
-            <Navbar fixed="top" className="justify-content-center"  style={{ backgroundColor: colorBackground }}>
-                <Nav >
+            <Navbar fixed="top" style={{ backgroundColor: colorBackground }}>
+                <Navbar.Brand className={'nav-logo '}>
+                    <img src={require('../../assets/logo2.png')} width="170" height="50" />
+                </Navbar.Brand>
+                <Nav className="justify-content-end" style={{ width: "80%" }}>
                     <Nav.Link href="home">
                         <span className={'header_nav'}> What i do</span>
                     </Nav.Link>
