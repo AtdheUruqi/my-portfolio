@@ -4,7 +4,7 @@ import './style/styles.css';
 const Header = ({ colorBackground, fontColor }) => {
     return (
         <>
-            <Navbar fixed="top" style={{ backgroundColor: colorBackground }}>
+            <Navbar  style={{ backgroundColor: colorBackground }}>
                 <Navbar.Brand className={'nav-logo '}>
                     <img src={require('../../assets/logo2.png')} width="170" height="50" />
                 </Navbar.Brand>

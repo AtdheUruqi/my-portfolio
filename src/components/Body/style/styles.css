@@ -1,47 +1,27 @@
-.background-img {
-    background-position: 50%;
-    background-size: 750px;
-    background-image: url('../../../assets/icon-bg.jpg');
-    /* background: linear-gradient(135deg,#208379 20%,#051514 80%); */
-    position: absolute;
-    /* top: 0;
-    left: 0; */
-    height: 400%;
-    width: 100%;
-    /* display: block; */
-    z-index: 0;
-    overflow: hidden;
-
-    content: "";
-    opacity: .1;
-    pointer-events: none;
+.container {
+  background: yellow;
+  width: 100%;
+  height: 690px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
+.centered-div {
+  width: 100%;
+  height: 490px;
+  margin: 10px;
+  padding: 5px;
+  background: blue;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 
-.overlay {
-    position: relative;
-    z-index: 0;
-    background-size: 550px;
-  }
-  
-  .overlay::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(135deg, #208379 20%, #051514 80%);
-      opacity: .6;
-      /* !!! */
-      z-index: -1;
-  }
-  
-  .box {
-    width: 100%;
-    height: 150%;
-    position: absolute;
-    color: white;
-    background-image: url('../../../assets/icon-bg.jpg');
-  }
-  
+.block{
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+}

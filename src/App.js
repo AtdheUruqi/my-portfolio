@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import './App.css';
 import Header from './components/Header/Header';
 import Body from './components/Body/Body';
-import Typer from './components/Typer';
 function App() {
 
   const [headerColor, setHeaderColor] = useState("rgba(0,0,0,0.2)");
@@ -19,9 +18,12 @@ function App() {
   })
   return (
     <div className="App">
-      <Header colorBackground={headerColor} fontColor={fontColor} />
-      {/* <Typer /> */}
-      <Body />
+      <div class="box overlay">
+
+        <Header colorBackground={headerColor} fontColor={fontColor} />
+        <Body />
+      </div>
+      {/* <Body /> */}
     </div>
   );
 }
