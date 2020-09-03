@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import './style/styles.css';
-const Header = ({ colorBackground, fontColor }) => {
+const Header = ({ colorBackground }) => {
     return (
         <>
             <Navbar  style={{ backgroundColor: colorBackground }}>

@@ -5,7 +5,6 @@ import Body from './components/Body/Body';
 function App() {
 
   const [headerColor, setHeaderColor] = useState("rgba(0,0,0,0.2)");
-  const [fontColor, setFontColor] = useState("#eeeeee");
 
   const listenScrollEvent = () => {
     window.scrollY > 50
@@ -18,12 +17,11 @@ function App() {
   })
   return (
     <div className="App">
-      <div class="box overlay">
+      <div className="box overlay">
 
-        <Header colorBackground={headerColor} fontColor={fontColor} />
+        <Header colorBackground={headerColor}  />
         <Body />
       </div>
-      {/* <Body /> */}
     </div>
   );
 }
