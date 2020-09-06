@@ -11,6 +11,10 @@
 .what-i-do{
   font-size: 40px;
 }
+.service-item {
+  height: 350px;
+  background-color: red;
+}
 
 .description-text-div{
 background-color:violet;
