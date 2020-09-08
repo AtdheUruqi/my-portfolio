@@ -10,8 +10,9 @@ const Skills = () => {
             <div class="container" style={{ backgroundColor: 'yellow' }}>
                 <div class="row justify-content-center">
                     <div class="col-sm">
-                        <div style={{ backgroundColor: 'red', }}>
+                        <div style={{ backgroundColor: 'red' }}>
                             <p>Web Application Development</p>
+                            <img src={require('../../assets/web-development.png')} width="200" height="200"/>
                             <p>Fast, responsive and engaging apps that bring your ideas to life.</p>
                         </div>
                     </div>
